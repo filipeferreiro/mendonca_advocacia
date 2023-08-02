@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lustria', serif;
+    font-weight: lighter;
+    height: 100%;
+}
+
+.login{
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}
+
+.login .background-line{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    background-color: #FFF9E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background-line h1{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.background-line h2{
+    font-weight: 100;
+}
+
+.login .form-wraper{
+    -webkit-box-shadow: 0px 0px 10px 5px rgb(207, 207, 207);
+    -moz-box-shadow: 0px 0px 10px 5px rgb(207, 207, 207);
+    box-shadow: 0px 0px 10px 5px rgb(207, 207, 207);
+    padding: 20px 50px;
+    margin: 0 4%;
+    background-color: #fff;
+    border-radius: 4px;
+    min-width: 400px;
+}
+
+form .input-wraper{
+    margin: 15px 0;
+}
+
+form .submit-wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input[type='email'], form input[type='password']{
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: #ccc 1px solid;
+    border-radius: 4px;
+}
+
+form input[type='submit']{
+    padding: 8px 18px;
+    border: 0;
+    background-color: #3C0303;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    width: 120px;
+}
+
+.login h2{
+    font-weight: 100;
+}
+
+@media screen and (max-width: 850px) {
+    .login{
+        flex-direction: column;
+    }
+
+    .login .container{
+        justify-content: center;
+        align-items: baseline;
+        height: 100%;
+        width: 100%;
+        margin-top: -40px;
+        z-index: 2;
+    }
+    
+    .login .background-line{
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login .form-wraper{
+        min-width: 0px;
+    }
+}
