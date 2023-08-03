@@ -71,7 +71,7 @@ form .submit-wraper{
 
 form input[type='email'], form input[type='password']{
     margin-top: 10px;
-    height: 30px;
+    height: 35px;
     width: 100%;
     padding: 4px 8px;
     font-size: 16px;
@@ -93,7 +93,7 @@ form input[type='submit']{
     font-weight: 100;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1150px) {
     .login{
         flex-direction: column;
     }

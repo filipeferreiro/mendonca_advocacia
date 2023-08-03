@@ -3,7 +3,7 @@
 
     class HomeController{
         public function index(){
-            echo 'estou na home';
+            \AdvocaciaMendonca\Views\MainView::render('home');
         }
     }
 ?>
