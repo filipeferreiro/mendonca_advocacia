@@ -11,6 +11,26 @@ html,body{
     height: 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #300101;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #240000;
+}
+
 /* HEADER STYLE */
 
 header{
@@ -185,6 +205,10 @@ footer .footer-bottom{
     color: #FAF9E5;
     font-size: 25px;
     margin: 0 5px;
+}
+
+.footer-social i:hover{
+    color: #dadada;
 }
 
 @media screen and (max-width: 850px) {
