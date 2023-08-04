@@ -1,0 +1,73 @@
+.banner{
+    height: 700px;
+}
+
+.banner img{
+    height: 700px;
+}
+
+.slick-next{
+    width: 50px !important;
+    height: 50px !important;
+    right: 20px !important;
+    z-index: 2;
+    font-size: 50px;
+}
+
+.slick-next::before{
+    font-size: 50px !important;
+}
+
+.slick-prev{
+    width: 50px !important;
+    height: 50px !important;
+    left: 25px !important;
+    z-index: 2;
+}
+
+.slick-prev::before{
+    font-size: 50px !important;
+}
+
+@media screen and (max-width: 765px) {
+    .banner{
+        height: 450px;
+    }
+    
+    .banner img{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner{
+        height: 350px;
+    }
+    
+    .banner img{
+        height: 350px;
+    }
+
+    .slick-next{
+        width: 40px !important;
+        height: 40px !important;
+        right: 15px !important;
+        z-index: 2;
+        font-size: 50px;
+    }
+    
+    .slick-next::before{
+        font-size: 40px !important;
+    }
+    
+    .slick-prev{
+        width: 40px !important;
+        height: 40px !important;
+        left: 20px !important;
+        z-index: 2;
+    }
+    
+    .slick-prev::before{
+        font-size: 40px !important;
+    }
+}

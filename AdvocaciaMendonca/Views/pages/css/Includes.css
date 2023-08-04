@@ -19,7 +19,7 @@ header{
 
 header .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 3%;
     padding: 10px 0;
     color: #3C0303;
 }
@@ -91,12 +91,57 @@ header .menu-desktop{
 
 header .menu-mobile{
     display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-mobile .logo-mobile{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu-mobile .logo-mobile a{
+    font-weight: 100;
+    user-select: none;
+    font-size: 22px;
+    color: #3C0303;
+    text-decoration: none;
+}
+
+.itens-menu-mobile{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.itens-menu-mobile ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6px;
+}
+
+.itens-menu-mobile ul li a{
+    text-decoration: none;
+    color: #3C0303;
+    font-size: 15px;
+}
+
+.contato-mobile a{
+    text-decoration: none;
+    color: #FAF9E5;
+    background-color: #3C0303;
+    padding: 5px 8px;
+    border-radius: 4px;
+    border: 1px solid #faf9e500;
+    transition: 0.5s;
+    font-size: 15px;
 }
 
 /* FOOTER STYLE */
 
 footer{
-    margin-top: 30px;
     background-color: #3C0303;
 }
 
@@ -140,4 +185,30 @@ footer .footer-bottom{
     color: #FAF9E5;
     font-size: 25px;
     margin: 0 5px;
+}
+
+@media screen and (max-width: 850px) {
+    header .menu-desktop{
+        display: none;
+    }
+    header .menu-mobile{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    footer .footer-top{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .footer-bottom{
+        
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer{
+        font-size: 13px;
+    }
 }

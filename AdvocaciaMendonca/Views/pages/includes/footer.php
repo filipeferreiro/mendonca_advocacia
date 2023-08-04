@@ -19,5 +19,9 @@
                 </div><!--footer-bottom-->
             </div><!--container-->
         </footer>
+
+        <script type="text/javascript" src="<?php echo INCLUDE_PATH_PAGES ?>js/jquery.js"></script>
+        <script type="text/javascript" src="<?php echo INCLUDE_PATH_PAGES ?>js/script.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     </body>
 </html>
