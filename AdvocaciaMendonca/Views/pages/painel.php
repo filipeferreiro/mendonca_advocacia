@@ -1,1 +1,1 @@
-<h2>painel de administrador</h2>
+<h2>corpo painel</h2>

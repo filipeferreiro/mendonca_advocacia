@@ -8,7 +8,8 @@
                 \AdvocaciaMendonca\Views\MainView::render('painel');
             }else{
                 //abrir login do painel
-                \AdvocaciaMendonca\Views\MainView::render('login');
+                \AdvocaciaMendonca\Views\MainView::render('painel');
+                
             }
         }
     }

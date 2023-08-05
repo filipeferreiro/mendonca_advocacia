@@ -21,8 +21,8 @@
                 <div class="form-wraper">
                     <form method="post">
                         <div class="input-wraper">
-                            <label for="login">Login</label>
-                            <input name="login" id="login" placeholder="insira seu e-mail" type="email">
+                            <label for="email">E-mail</label>
+                            <input name="email" id="email" placeholder="insira seu e-mail" type="email">
                         </div>
                         <div class="input-wraper">
                             <label for="senha">Senha</label>
