@@ -38,13 +38,34 @@ body{
 /* MENU NAV */
 
 .menu-nav{
-    padding: 2%;
     background-color: #3C0303;
     width: 250px;
     color: #FAF9E5;
     height: 100%;
     position: fixed;
     overflow-y: auto;
+}
+
+.nav-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 2%;
+    border-top: 1px solid #FAF9E5;
+    
+}
+
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-header{
+    padding: 10px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section.corpo{

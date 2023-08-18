@@ -22,11 +22,11 @@
                     <form method="post">
                         <div class="input-wraper">
                             <label for="email">E-mail</label>
-                            <input name="email" id="email" placeholder="insira seu e-mail" type="email">
+                            <input name="email" id="email" placeholder="insira seu e-mail" type="email" required>
                         </div>
                         <div class="input-wraper">
                             <label for="senha">Senha</label>
-                            <input name="senha" id="senha" placeholder="insira sua senha" type="password">
+                            <input name="senha" id="senha" placeholder="insira sua senha" type="password" required>
                         </div>
                         <div class="submit-wraper">
                             <input name="enviar" id="enviar" value="Entrar" type="submit">

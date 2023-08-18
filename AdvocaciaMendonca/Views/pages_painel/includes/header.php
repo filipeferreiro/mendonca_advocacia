@@ -14,15 +14,14 @@
     <body>
         <nav class="menu-nav">
             <div class="nav-header">
-                <div class="image-wraper">
-                    <img/>
-                </div><!--image-wraper-->
                 <div class="header-content">
-                    <h3>Marcela Cristina</h3>
-                    <a href="">Log-out <i class="fa-solid fa-right-from-bracket"></i></a>
+                    <h3><?php echo $_SESSION['usuario']; ?></h3>
                 </div><!--header-content-->
             </div><!--nav-header-->
             <div class="nav-body">
+                <div class="nav-item">
+                    <a href="<?php echo INCLUDE_PATH_PAINEL; ?>?loggout">Log-out <i class="fa-solid fa-right-from-bracket"></i></a>
+                </div><!--nav-item-->
                 <div class="nav-item">
                     <a href="<?php echo INCLUDE_PATH_HOME; ?>registra_usuario">Registrar Usuário</a>
                 </div><!--nav-item-->
